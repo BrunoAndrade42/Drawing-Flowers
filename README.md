@@ -1,6 +1,6 @@
-# Faça você mesmo! Brinque em desenhar as flores de modo interativo
+## Brinque em desenhar as flores de modo interativo
 https://bruno-andrade-apps.shinyapps.io/Desenhando-Flores-Interativo/
-
+E saiba como eu fiz:
 Desenhando Flores Usando Matemática
 ================
 
