@@ -2,8 +2,10 @@ Desenhando Flores Usando Matemática
 ================
 
 ## 1. Padrões na natureza
+<p>
+<img align="left" src="images/phyllotaxis.png" height="300" width="300">
 
-<img style="float: left;margin:2px 2px 2px 2px" src="images/phyllotaxis.png" height="300" width="300">
+</p>
 <p>
 <em> “O cientista não estuda a natureza porque ela é útil. Ele estuda
 porque tem prazer nisso, e tem prazer porque é bonito.” (Henri
@@ -23,20 +25,16 @@ de distribuição é chamado filotaxia ou phyllotaxis e servirá de base
 nesse projeto.
 </p>
 
-<br /><br /><br /><br /><br />
+
+
+<br /><br />
 
 ``` r
 # Carregar pacote ggplot2
 library(ggplot2)
-```
-
-    ## Warning: package 'ggplot2' was built under R version 4.2.1
-
-``` r
 library(cowplot)
-```
 
-    ## Warning: package 'cowplot' was built under R version 4.2.1
+```
 
 ## 2. Desenhar pontos em um círculo
 
@@ -85,7 +83,9 @@ circunferência). O ângulo divide o círculo de modo que
 palavras: o Ângulo de Ouro divide um círculo de modo que a razão entre o
 arco grande e o pequeno seja a Proporção Áurea. Essa imagem da wikipédia
 ilustra tal definição.
-<img src="images/Golden_Angle.png" style=" display: block;margin-left: auto; margin-right: auto;" height="300" width="300">
+<p align="center">
+<img src="images/Golden_Angle.png" height="300" width="300">
+</p>
 <p>
 O Ângulo de Ouro é o ângulo subtendido pelo arco menor (vermelho). Tanto
 a Proporção Áurea quanto o Ângulo de Ouro aparecem em lugares
@@ -232,7 +232,7 @@ p + geom_point(aes(size=t), alpha=.5, shape=11, colour="yellow") +
 ## 9. Tudo junto agora: flores imaginárias
 
 <p>
-<img style="float: left;margin:2px 2px 2px 2px" src="images/flower.png" height="280" width="280">
+<img align="left" src="images/flower.png" height="280" width="280">
 </p>
 <p>
 As técnicas que usamos até agora nos permitem criar um número
@@ -245,7 +245,7 @@ essência, muito similar à primeira figura que foi traçado 50 pontos em
 um círculo
 </p>
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br />
 
 ``` r
 func <- function(angle = 13 *pi/180 , points = 2000, cor="magenta4") {
