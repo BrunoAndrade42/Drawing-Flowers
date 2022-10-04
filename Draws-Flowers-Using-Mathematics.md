@@ -3,9 +3,7 @@ Desenhando Flores Usando Matemática
 
 ## 1. Padrões na natureza
 
-<p>
 <img style="float: left;margin:2px 2px 2px 2px" src="images/phyllotaxis.png" height="300" width="300">
-</p>
 <p>
 <em> “O cientista não estuda a natureza porque ela é útil. Ele estuda
 porque tem prazer nisso, e tem prazer porque é bonito.” (Henri
